@@ -32,7 +32,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand nav-external" href="/">Urban Patchwork</a>
+            <a class="navbar-brand" href="#home"><img src="/assets/img/patchwork_logo.jpg" alt="Grow food where we live" /></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -59,11 +59,21 @@
         </div>
       </nav>
     </div>
-    <article>
-      <div class="container"></div>
-      <h1>{{name}}</h1>
-      <p class="category">{{category}}</p>
-      <p>{{description}}</p>
+    <article class="page">
+      <div class="container">
+        <div class="row">
+          <div class="content">
+            <div class="col-md-6">
+              <h1>{{name}}</h1>
+              <p class="category">{{category}}</p>
+              <p>{{description}}</p>
+            </div>
+            <div class="images col-md-6">
+              <img src="/img/project.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
 <!-- FOOTER -->
     <footer id="footer">
@@ -90,6 +100,7 @@
 <!-- END FOOTER -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/mustache.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/imagesloaded.min.js"></script>
     <script src="assets/js/jquery.scrollTo.min.js"></script>

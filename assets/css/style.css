@@ -101,6 +101,13 @@ a:focus {
   font-weight: 600;
   text-transform: uppercase;
 }
+a.navbar-brand {
+  padding: 0;
+}
+.navbar-brand img {
+  height:44px;
+  padding: 3px;
+}
 .navbar-default .navbar-nav > li > a {
   font-weight: 600;
   text-transform: uppercase;
@@ -231,46 +238,12 @@ a:focus {
   content: '\f10d';
 }
 #testimonials .client { color: #ccc }
-/*#city-map .carousel-indicators li {
-  width: 9px;
-  height: 9px;
-  border-color: #a6a6a6;
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
-  -webkit-transition: all 0.25s linear;
-     -moz-transition: all 0.25s linear;
-       -o-transition: all 0.25s linear;
-          transition: all 0.25s linear;
-}
-#city-map .carousel-indicators li:hover,
-#city-map .carousel-indicators li:focus { border-color: #fff }
-#city-map .carousel-indicators .active {
-  width: 9px;
-  height: 9px;
-  margin: 1px;
-  background-color: #71be3c;
-  border-color: #fff;
-}
-#city-map .carousel-indicators {
-  bottom: 0;
-  margin-bottom: 0;
-}
-#city-map .carousel-control {
-  top: 15%;
-  width: 0%;
-  display: none;
-  font-size: 40px;
-  background-image: none;
-  text-shadow: none;
-}
-*/
 .carousel-inner img {
   width: 100%;
 }
-#city-map .content{
+.city-map .content{
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 #about .content { padding-bottom: 0 }
 #about .teammate { margin-top: 60px }

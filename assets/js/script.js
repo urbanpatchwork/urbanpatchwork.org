@@ -90,6 +90,10 @@ $(document).ready(function () {
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
+
+    var project_id = window.location.hash.substring(1);
+    var project_url = 'http://maps.urbanpatchwork.org/api/project/' + project_id;
+    var obj = $.getJSON(project_url, loadProject);
 });
 function handleTweets(tweets) {
     var element = document.getElementById('feed');
@@ -104,4 +108,13 @@ function handleTweets(tweets) {
         html += '</ul>';
         element.innerHTML = html;
     }
+}
+function loadProject(data, textStatus, jqXHR) {
+  var template = $('article').first.html();
+  Mustache.parse(template);
+  var obj = data.features[0];
+  obj = obj.properties;
+  var rendered = Mustache.render(template, obj);
+  window.title = window.title + obj.name;
+  $('article').first.html(rendered);
 }

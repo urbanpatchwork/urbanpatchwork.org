@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="assets/ico/UPfavicon.jpg">
     <title>Urban Patchwork</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -42,16 +42,16 @@
                 <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
                 <a href="#city-map">City Map</a>
               </li>
               <li>
                 <a href="#featured-products">Featured Products</a>
               </li>
+ 	      <li>
+                <a href="#about">About UP</a>
+              </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contactus">Contact</a>
               </li>
               <li>
                 <a href="#donate">Donate</a>
@@ -69,9 +69,9 @@
         <div class="content cover text-center">
           <div class="row">
             <div class="col-lg-12">
-              <h1 class="animated hiding" data-animation="fadeInDown" data-delay="300">We Are Merlin</h1>
-              <a class="btn btn-blue nav-external animated hiding" data-animation="fadeIn" data-delay="900" href="#services">Find more</a>
-              <h3 class="animated hiding" data-animation="fadeIn" data-delay="600">We Have Made A Lot Of Friends.</h3>
+              <h2 class="animated hiding" data-animation="fadeInDown" data-delay="300"><strong>WE HELP PROJECTS COME TO LIFE…</strong></h2>
+            <!--  <a class="btn btn-blue nav-external animated hiding" data-animation="fadeIn" data-delay="900" href="#services">Find more</a> -->
+              <h2 class="animated hiding" data-animation="fadeIn" data-delay="600">...that <strong>strengthen</strong> and beautify our communities, <br><strong>expand</strong> our food system’s reach, </br>and <strong>reduce</strong> the environmental impact </br>of landscaping and agriculture.</h2>
             </div>
           </div>
         </div>
@@ -79,25 +79,59 @@
     </section>
 <!-- END TOP IMAGE -->
 
-<!-- ABOUT SECTION -->
-    <section id="about" class="page">
-      <div class="container">
+<!-- MAP SLIDER -->
+<section class="page">
+
+     <div class="container">
         <div class="content text-center">
-          <div class="heading">
-            <h2>About</h2>
+          <div id="city-map" class="heading">
+            <h2>City Map</h2>
             <div class="border"></div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+          <p>Explore the Urban Patchwork community and make a difference.</p>
         </div>
       </div>
-    </section>
-<!-- END ABOUT -->
 
-<!-- MAP SLIDER -->
-    <section id="city-map" class="page">
-      <div class="container">       
+      <div class="cover"> 
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+<a href="http://maps.urbanpatchwork.org" target="blank">
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="/assets/img/mapslider/mapslider1.png" alt="...">
+      <div class="carousel-caption">
       </div>
-    </section>
+    </div>
+    <div class="item">
+      <img src="/assets/img/mapslider/mapslider2.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="/assets/img/mapslider/mapslider3.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+</a>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+      </div>
+</section>
 <!-- END MAP SLIDER -->
 
 <!-- PORTFOLIO SECTION --> 
@@ -200,56 +234,28 @@
     </section>
 <!-- END PORTFOLIO SECTION -->
 
-<!-- CONTACT -->
-    <section id="contact" class="page">
+<!-- ABOUT SECTION -->
+    <section id="about" class="page">
       <div class="container">
-        <div class="content cover text-center">
+        <div class="content text-center">
           <div class="heading">
-            <h2>Contact</h2>
+            <h2>About Urban Patchwork</h2>
             <div class="border"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
-          <div class="row">
-            <div class="col-lg-4 animated hiding" data-animation="fadeInRight" data-delay="600">
-              <i class="fa fa-map-marker fa-3x"></i>
-              <a href="#">Mostar, Bosnia and Herzegovina</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInDown" data-delay="300">
-              <i class="fa fa-phone fa-3x"></i>
-              <a href="tel:9876543210">(987) 654-3210</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
-              <i class="fa fa-envelope fa-3x"></i>
-              <a href="mailto:john.doe@mail.com">john.doe@mail.com</a>
-            </div>
-          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
         </div>
       </div>
     </section>
-<!-- END CONTACT -->
+<!-- END ABOUT -->
 
 <!-- DONATE -->
     <section id="donate" class="page">
       <div class="container">
-        <div class="content cover text-center">
+        <div class="content text-center">
           <div class="heading">
             <h2>Donate</h2>
             <div class="border"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 animated hiding" data-animation="fadeInRight" data-delay="600">
-              <i class="fa fa-map-marker fa-3x"></i>
-              <a href="#">Mostar, Bosnia and Herzegovina</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInDown" data-delay="300">
-              <i class="fa fa-phone fa-3x"></i>
-              <a href="tel:9876543210">(987) 654-3210</a>
-            </div>
-            <div class="col-lg-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
-              <i class="fa fa-envelope fa-3x"></i>
-              <a href="mailto:john.doe@mail.com">john.doe@mail.com</a>
-            </div>
           </div>
         </div>
       </div>
@@ -259,13 +265,23 @@
 <!-- FOOTER -->
     <footer id="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 animated hiding" data-animation="fadeInUp">
-            <p class="copyright"> 
-              copyright
-            </p>
+        <div class="heading" id="contactus">
+            <h2>Contact</h2>
+          <div class="row">
+            <div class="col-lg-4 animated hiding" data-animation="fadeInRight" data-delay="600">
+              <i class="fa fa-map-marker fa-3x"></i>
+              <a href="#">PO Box 300525 | Austin, TX | 78752</a>
+            </div>
+            <div class="col-lg-4 animated hiding" data-animation="fadeInDown" data-delay="300">
+              <i class="fa fa-phone fa-3x"></i>
+              <a href="tel:5125737812">(512) 573-7812</a>
+            </div>
+            <div class="col-lg-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
+              <i class="fa fa-envelope fa-3x"></i>
+              <a href="mailto:learnmore@urbanpatchwork.org">learnmore@urbanpatchwork.org</a>
+            </div>
           </div>
-        </div>
+
       </div>
     </footer>
 <!-- END FOOTER -->

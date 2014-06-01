@@ -231,7 +231,7 @@ a:focus {
   content: '\f10d';
 }
 #testimonials .client { color: #ccc }
-#testimonials .carousel-indicators li {
+/*#city-map .carousel-indicators li {
   width: 9px;
   height: 9px;
   border-color: #a6a6a6;
@@ -243,26 +243,34 @@ a:focus {
        -o-transition: all 0.25s linear;
           transition: all 0.25s linear;
 }
-#testimonials .carousel-indicators li:hover,
-#testimonials .carousel-indicators li:focus { border-color: #fff }
-#testimonials .carousel-indicators .active {
+#city-map .carousel-indicators li:hover,
+#city-map .carousel-indicators li:focus { border-color: #fff }
+#city-map .carousel-indicators .active {
   width: 9px;
   height: 9px;
   margin: 1px;
   background-color: #71be3c;
   border-color: #fff;
 }
-#testimonials .carousel-indicators {
+#city-map .carousel-indicators {
   bottom: 0;
   margin-bottom: 0;
 }
-#testimonials .carousel-control {
+#city-map .carousel-control {
   top: 15%;
   width: 0%;
   display: none;
   font-size: 40px;
   background-image: none;
   text-shadow: none;
+}
+*/
+.carousel-inner img {
+  width: 100%;
+}
+#city-map .content{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 #about .content { padding-bottom: 0 }
 #about .teammate { margin-top: 60px }
@@ -311,7 +319,7 @@ a:focus {
   color: #00aced;
 }
 #contact {
-  background: url(../img/cover/contact.jpg);
+  /*background: url(../img/cover/contact.jpg);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
